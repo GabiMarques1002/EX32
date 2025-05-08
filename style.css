@@ -29,6 +29,12 @@ input{
     padding: 10px;
     color: white;
 }
+
+input:focus {
+    outline: none;
+    border: 2px solid white;
+}
+
 ::-webkit-input-placeholder{
     color: white;
 }
